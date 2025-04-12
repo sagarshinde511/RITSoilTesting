@@ -87,7 +87,7 @@ def update_motor_state(state):
 
 # Main content after login
 st.title("IoT Sensor Dashboard")
-tabs = st.tabs(["Dashboard", "All Data", "WaterPump"])
+tabs = st.tabs(["Dashboard", "All Data"])
 
 # Tab 1: Dashboard
 with tabs[0]:
